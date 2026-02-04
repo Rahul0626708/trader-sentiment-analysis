@@ -1,0 +1,38 @@
+Summary 
+Trader Behavior vs Market Sentiment
+
+ Methodology
+1.Two datasets were analyzed: daily Bitcoin market sentiment (Fear/Greed Index) and trade-level historical data from the Hyperliquid platform. 
+2.The trade data was cleaned to handle malformed rows and ensure numeric consistency for PnL, trade size, fees, and prices. 
+3.Timestamps were converted to a daily granularity to align both datasets.
+
+*Trade-level data was aggregated to a trader-day level to compute key performance and behavior metrics, including daily PnL, win rate, number of trades, average trade size, fees, and long/short bias. 
+*These metrics were merged with daily market sentiment to compare trader behavior and performance across Fear and Greed regimes. 
+*Traders were further segmented by activity level and consistency to identify behavioral patterns across different groups.
+
+
+
+ Key Insights
+1. Performance varies with market sentiment
+   *Traders generally exhibit weaker average performance and higher variability in daily PnL during Fear periods compared to Greed periods. 
+   *Win rates also tend to be marginally higher during Greed days.
+
+2. Behavioral shifts under Fear vs Greed
+  * During Fear periods, traders reduce trade frequency and exposure, indicating risk-averse behavior. 
+  *In contrast, Greed periods are associated with higher trade frequency and more aggressive positioning.
+
+3. Segment-specific effects
+  * High-activity traders benefit disproportionately during Greed periods but experience larger drawdowns during Fear periods.
+  *More consistent traders show relatively stable performance across sentiment regimes.
+
+
+
+Strategy Recommendations
+1. Dynamic risk control
+   High-activity traders should reduce leverage and trade frequency during Fear periods to limit drawdowns, while maintaining higher activity only during Greed periods.
+
+2. Selective aggressiveness  
+   Increased trading during Greed days should be restricted to traders with historically high win rates, as inconsistent traders tend to amplify losses during volatile sentiment shifts.
+
+
+This analysis highlights that market sentiment influences not only returns but also trader behavior, and that sentiment-aware trading rules can improve risk-adjusted performance.
