@@ -35,4 +35,5 @@ Strategy Recommendations
    Increased trading during Greed days should be restricted to traders with historically high win rates, as inconsistent traders tend to amplify losses during volatile sentiment shifts.
 
 
+
 This analysis highlights that market sentiment influences not only returns but also trader behavior, and that sentiment-aware trading rules can improve risk-adjusted performance.
